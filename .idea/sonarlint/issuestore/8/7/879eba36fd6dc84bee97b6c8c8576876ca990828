@@ -1,0 +1,8 @@
+
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+ksquid:S1450"VRemove the "lblText" field and declare it as a local variable in the relevant methods.(ÃòÊš
+nsquid:S1450"YRemove the "titleField" field and declare it as a local variable in the relevant methods.(üí®³
+msquid:S1450"XRemove the "dateField" field and declare it as a local variable in the relevant methods.(¿µ
+ssquid:S1450"YRemove the "sourceArea" field and declare it as a local variable in the relevant methods.(¨–™ùÿÿÿÿ
+psquid:S1450"[Remove the "authorsField" field and declare it as a local variable in the relevant methods.(´¹äû
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(àİóûÿÿÿÿÿ
