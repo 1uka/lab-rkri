@@ -1,18 +1,12 @@
-package lab78;
+package lab07;
 
 
-
-import sun.swing.BakedArrayList;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
-import java.sql.Array;
 import java.util.*;
-import java.lang.reflect.*;
-
-
 
 
 class GuiAccTest extends Frame implements ActionListener, ItemListener
@@ -28,7 +22,7 @@ class GuiAccTest extends Frame implements ActionListener, ItemListener
   ArrayList<BankAccount> acclist = new ArrayList<>();
   ArrayList<BankAccount> acclisttest = new ArrayList<>();
 
-  int i = 5;
+  int i = 4;
 
   GuiAccTest()
   {

@@ -1,4 +1,4 @@
-package lab78;
+package lab07;
 
 import java.io.Serializable;
 

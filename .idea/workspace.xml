@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d0fb4f-1f5a-4b08-876d-8299ab99da44" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab05/NumberLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab05/TimerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab78/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab78/GuiAccTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab08/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lab78/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lab78/FundsInsufficientException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lab78/GuiAccTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lab78/NewWindowAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab78/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab07/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab78/GuiAccTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab07/GuiAccTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +23,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab78/BankAccount.java">
+        <entry file="file://$PROJECT_DIR$/src/lab07/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="128">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiAccTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab78/GuiAccTest.java">
+      <file leaf-file-name="GuiAccTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab07/GuiAccTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-789">
-              <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+            <state relative-caret-position="384">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab08/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +90,8 @@
         <option value="$PROJECT_DIR$/src/test/Main.java" />
         <option value="$PROJECT_DIR$/src/lab78/GuiAccTest.java" />
         <option value="$PROJECT_DIR$/src/lab78/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/lab07/GuiAccTest.java" />
+        <option value="$PROJECT_DIR$/src/lab08/Main.java" />
       </list>
     </option>
   </component>
@@ -96,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,12 +128,14 @@
               <item name="lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab78" type="462c0819:PsiDirectoryNode" />
+              <item name="lab08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,25 +156,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuiAccTest (1)">
-    <configuration name="Form" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab01.Form" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="GuiAccTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab07.GuiAccTest" />
       <module name="lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="GuiAccTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab78.GuiAccTest" />
-      <module name="lab" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab78.*" />
+          <option name="PATTERN" value="lab07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,6 +186,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lab03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab08.Main" />
+      <module name="lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,18 +255,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Labv3" />
-      <item itemvalue="Application.Form" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.GuiAccTest" />
       <item itemvalue="Application.GuiAccTest (1)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuiAccTest (1)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.GuiAccTest" />
+        <item itemvalue="Application.GuiAccTest (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Labv3" />
-        <item itemvalue="Application.Form" />
       </list>
     </recent_temporary>
   </component>
@@ -278,11 +294,12 @@
       <workItem from="1525211360254" duration="307000" />
       <workItem from="1525263139629" duration="4122000" />
       <workItem from="1525267282800" duration="582000" />
+      <workItem from="1525643064340" duration="329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16512000" />
+    <option name="totallyTimeSpent" value="16841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="22" width="1398" height="878" extended-state="0" />
@@ -323,18 +340,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab78/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/lab07/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab07/GuiAccTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab07/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab78/GuiAccTest.java">
+    <entry file="file://$PROJECT_DIR$/src/lab07/GuiAccTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
@@ -591,17 +625,27 @@
     <entry file="file://$PROJECT_DIR$/src/lab07/GuiAcc.java" />
     <entry file="file://$PROJECT_DIR$/src/lab07/BankAccount.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab78/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/lab07/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="128">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab78/GuiAccTest.java">
+    <entry file="file://$PROJECT_DIR$/src/lab07/GuiAccTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-789">
-          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+        <state relative-caret-position="384">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab08/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
